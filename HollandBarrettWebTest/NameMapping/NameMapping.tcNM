@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{10941D30-D1A5-418B-ADDB-3190A3CCB282}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{4734AF15-8B67-400F-99F4-08AEA0B5AEB7}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+							<Property Name="Index">
+								<Value Value="1" Type="0" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{AE5E8B66-EDD9-44DF-8751-19D67DB04783}">
+								<TypeInfo Item0="{05D2391C-B5AD-47F1-AA58-DC07D9830F9B}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+									<Property Name="FullName">
+										<Value Value="Sys.Browser(&quot;edge&quot;).BrowserWindow(0)" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="HomePage" Key="{FB4458B3-2756-47A6-97F1-3EE9AE74A79A}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="YourCookieSettingsModalText" Key="{1AD6583E-E993-43ED-95C7-2CD22104AD5C}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h2[@id=&apos;onetrust-policy-title&apos; or text()=&apos;Your Cookie Settings&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h2[text()=&apos;Your Cookie Settings&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="YesIAcceptButton" Key="{B2682C7C-1769-4D6E-9ACA-0DE2157B3031}">
+										<TypeInfo Item0="{50545821-4F71-4F98-AB3E-94A75A2D6732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[@id =&apos;onetrust-button-group&apos;]//button[text()=&apos;Yes I Accept&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//button[text()=&apos;Yes I Accept&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="RewardsNavigationButton" Key="{079E3EDB-0871-45D5-8512-96AFC8CC65CF}">
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//nav//span[normalize-space(text())=&apos;Rewards&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="VitaminsSupplementsMenu" Key="{07425BC3-98AA-4766-8373-937AE3334541}">
+										<TypeInfo Item0="{FD7B3CD5-C6AB-457C-8928-269367F1C14F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[@data-test-value=&apos;Vitamins &amp; Supplements&apos;]//div[normalize-space(text())=&apos;Vitamins &amp; Supplements&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[@href=&quot;/shop/vitamins-supplements/&quot;]//div[normalize-space(text())=&apos;Vitamins &amp; Supplements&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="VitaminCSubMenu" Key="{731FCA9C-80EF-46E5-9DD6-FCDB591DCBC4}">
+												<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//a[@href=&quot;/shop/vitamins-supplements/vitamins/vitamin-c/&quot;]/div[normalize-space()=&apos;Vitamin C&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//div[contains(@class, &apos;MenuItemLink&apos;) and normalize-space()=&apos;Vitamin C&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="FoodDrinkMenu" Key="{4DACF59C-7FCA-440D-8B47-58D35481097B}">
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[@data-test-value=&apos;Food &amp; Drink&apos;]//div[normalize-space(text())=&apos;Food &amp; Drink&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[@href=&quot;/shop/food-drink/&quot;]//div[normalize-space(text())=&apos;Food &amp; Drink&apos;]" />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="ChocolateCakesBiscuitsPageHeader" Key="{F63D40C2-A933-4102-8A9D-424154EC93CB}">
+												<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//h1[@data-test=&apos;page-title&apos; and normalize-space(text())=&apos;Chocolate, Cakes &amp; Biscuits&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//h1[@data-test=&apos;page-title&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+											<Child Name="ChocolateCakesBiscuitsSubmenu" Key="{34D953AD-D4B6-48B2-892A-A5EB1581D33A}">
+												<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//div[contains(@class, &apos;MenuItemLink&apos;) and normalize-space()=&apos;Chocolate, Cakes &amp; Biscuits&apos;]" />
+													</Selector>
+													<Selector>
+														<Value Value="xpath=//a[@href=&quot;/shop/food-drink/snacks/chocolate-cakes-biscuits/?icmp=FD_FLY_CHOC&quot;]/div[normalize-space()=&apos;Chocolate, Cakes &amp; Biscuits&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="BasketNavigationButton" Key="{8C54AB32-404C-47A9-A727-6CDDE24D6D2D}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//span[normalize-space()=&apos;Basket&apos;]/../..//a" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[@href =&apos;/basket&apos;]/*[name()=&apos;svg&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="LoggedInUserAccountTab" Key="{1BD2451B-6672-449B-BB2D-A34BB6F9D0F8}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[@href=&quot;/my-account/overview&quot;]//span[contains(normalize-space(text()), &apos;Hello&apos;)]/.." />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[contains(normalize-space(text()), &apos;Hello&apos;)]/.." />
+											</Selector>
+										</Selectors>
+										<Children>
+											<Child Name="SignOutButton" Key="{74E54AB0-FE6F-48AB-A124-B9897934B163}">
+												<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+												<Selectors>
+													<Selector>
+														<Value Value="xpath=//a[@href=&quot;/auth/logout&quot; and normalize-space(text())=&apos;Sign Out&apos;]" />
+													</Selector>
+												</Selectors>
+											</Child>
+										</Children>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="SignInPage" Key="{E7C35418-DFE7-4F41-BABE-BD15CD5E5B88}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://auth.hollandandbarrett.com/u/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SignInToYourAccountText" Key="{BF808DA7-2419-4299-85B6-C218BA665AEC}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//p[normalize-space(text())=&apos;Sign in to your account, for the best experience&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="DontHaveAnAccountYetText" Key="{2A78EC30-41EC-4DEB-AA41-0D07B7BA5680}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h3[normalize-space(text())=&quot;Don&apos;t have an account yet ?&quot;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="SignUpLink" Key="{85D52F0E-4480-4891-B839-7CD0B444F5C6}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[@href=&quot;https://www.hollandandbarrett.com/auth/signup&quot; and normalize-space()=&apos;Sign up&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space()=&apos;Sign up&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="EmailAddressTextField" Key="{B446A245-37CE-4F49-A046-DDAF7F49BE7C}">
+										<TypeInfo Item0="{5B659D67-DE0B-4223-AF49-9591778A3342}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;Email address&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="PasswordField" Key="{01542B62-B677-4D64-8AC3-694EC4FF913C}">
+										<TypeInfo Item0="{5B659D67-DE0B-4223-AF49-9591778A3342}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;Password&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="SignInButton" Key="{D07B0C81-F7CA-4FE9-9941-B97710B432E3}">
+										<TypeInfo Item0="{42B3CDCC-787F-4CD3-A9F1-01D4D6131D43}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[@data-action-button-primary=&apos;true&apos; and normalize-space(text())=&apos;Sign In&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="RegisterPage" Key="{7F29C083-08D7-47E6-8737-3C41184A637D}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/auth/signup" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="CreateAnAccountText" Key="{81B0DF2D-BAA2-41CC-B69C-789718EAF3FA}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h1[normalize-space()=&apos;Create an account&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h1[contains(@class, &apos;SignUpEnhanced_title&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="FirstNameTextField" Key="{B3A2E3DE-2693-4B9A-B905-C36BEFB24330}">
+										<TypeInfo Item0="{8585314F-3BFB-4AEF-A90A-F471457D6907}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;firstName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;First name&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="LastNameTextField" Key="{53E9206A-0DAA-4FEB-9966-FB196F502953}">
+										<TypeInfo Item0="{8585314F-3BFB-4AEF-A90A-F471457D6907}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;lastName&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;Last name&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="EmailAddressTextField" Key="{400B30EE-CAE1-47A6-8B0B-C091EA0D52D1}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;email&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;Email address&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="ConfirmEmailAddressTextField" Key="{15F39F09-0509-4E3E-8C40-912B109E1B79}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;confirmEmail&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;Confirm email address&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="CreateAPasswordField" Key="{6DAF9122-F771-4CFD-AD22-FEE9E61190E4}">
+										<TypeInfo Item0="{8585314F-3BFB-4AEF-A90A-F471457D6907}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//input[@id=&apos;password&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//label[normalize-space()=&apos;Create a password&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="TermsAndConditionsCheckbox" Key="{D983D07E-6C62-473D-91BF-14B5618DCFDA}">
+										<TypeInfo Item0="{E4F0982D-D1D6-4526-9737-3CC0D5A21CEA}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//input[@name=&apos;terms&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//span[normalize-space()=&apos;I agree to the Rewards for Life and website terms &amp; conditions&apos;]/..//input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="CreateAnAccountButton" Key="{0B16DA27-FA74-4F63-B2E7-BDCD06CB51FA}">
+										<TypeInfo Item0="{50545821-4F71-4F98-AB3E-94A75A2D6732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//button[@type=&apos;submit&apos;]//span[normalize-space(text())=&apos;Create an account&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="AccountCreatedText" Key="{443E09CA-D18E-4AE9-8DA6-59948EC24FEB}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//h4[contains(@class, &apos;ThankYou_thank_you_header&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//h4[contains(normalize-space(), &apos;Account created&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="AccountCreatedSubtext" Key="{A7D28286-E297-447B-B7FA-4523FAFDC279}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//p[contains(@class, &apos;ThankYou_thank_you_description&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//p[contains(normalize-space(), &apos;Your account and Rewards For Life&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="SignInButton" Key="{47B34110-6968-465A-87E7-9711FB15B466}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//a[normalize-space()=&apos;Sign in&apos;]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="BasketPage" Key="{55AF6281-DC8C-427F-837B-F6F3212DB5CD}">
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.hollandandbarrett.com/basket" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="SubtotalValue" Key="{4CEFFBA3-AAEC-449F-BF5A-719070D21C22}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;Subtotal&apos;]/following-sibling::div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="SavingsValue" Key="{21DEA7BC-03C3-4D04-8DBB-E8FF526C368D}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;Savings&apos;]/following-sibling::div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="DefaultDeliveryValue" Key="{409C89B6-5F7E-4647-9EA4-9252EA4CAA54}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;Default Delivery&apos;]/following-sibling::div" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="TotalValue" Key="{C1F8BAA6-30CA-4DFE-9022-F8C1EB36290B}">
+										<TypeInfo Item0="{DD736348-0807-430E-839B-0B593B408732}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//div[text()=&apos;Total&apos;]/following-sibling::div" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{4734AF15-8B67-400F-99F4-08AEA0B5AEB7}">
+			<Child Name="BrowserWindow" Owner="{AE5E8B66-EDD9-44DF-8751-19D67DB04783}" />
+			<Child Name="HomePage" Owner="{FB4458B3-2756-47A6-97F1-3EE9AE74A79A}">
+				<Child Name="YourCookieSettingsModalText" Owner="{1AD6583E-E993-43ED-95C7-2CD22104AD5C}" />
+				<Child Name="YesIAcceptButton" Owner="{B2682C7C-1769-4D6E-9ACA-0DE2157B3031}" />
+			</Child>
+			<Child Name="RewardsNavigationButton" Owner="{079E3EDB-0871-45D5-8512-96AFC8CC65CF}" />
+			<Child Name="SignInPage" Owner="{E7C35418-DFE7-4F41-BABE-BD15CD5E5B88}">
+				<Child Name="DontHaveAnAccountYetText" Owner="{2A78EC30-41EC-4DEB-AA41-0D07B7BA5680}" />
+				<Child Name="SignUpLink" Owner="{85D52F0E-4480-4891-B839-7CD0B444F5C6}" />
+				<Child Name="SignInToYourAccountText" Owner="{BF808DA7-2419-4299-85B6-C218BA665AEC}" />
+				<Child Name="EmailAddressTextField" Owner="{B446A245-37CE-4F49-A046-DDAF7F49BE7C}" />
+				<Child Name="PasswordField" Owner="{01542B62-B677-4D64-8AC3-694EC4FF913C}" />
+				<Child Name="SignInButton" Owner="{D07B0C81-F7CA-4FE9-9941-B97710B432E3}" />
+			</Child>
+			<Child Name="RegisterPage" Owner="{7F29C083-08D7-47E6-8737-3C41184A637D}">
+				<Child Name="CreateAnAccountButton" Owner="{0B16DA27-FA74-4F63-B2E7-BDCD06CB51FA}" />
+				<Child Name="ConfirmEmailAddressTextField" Owner="{15F39F09-0509-4E3E-8C40-912B109E1B79}" />
+				<Child Name="EmailAddressTextField" Owner="{400B30EE-CAE1-47A6-8B0B-C091EA0D52D1}" />
+				<Child Name="AccountCreatedSubtext" Owner="{A7D28286-E297-447B-B7FA-4523FAFDC279}" />
+				<Child Name="AccountCreatedText" Owner="{443E09CA-D18E-4AE9-8DA6-59948EC24FEB}" />
+				<Child Name="CreateAnAccountText" Owner="{81B0DF2D-BAA2-41CC-B69C-789718EAF3FA}" />
+				<Child Name="CreateAPasswordField" Owner="{6DAF9122-F771-4CFD-AD22-FEE9E61190E4}" />
+				<Child Name="FirstNameTextField" Owner="{B3A2E3DE-2693-4B9A-B905-C36BEFB24330}" />
+				<Child Name="LastNameTextField" Owner="{53E9206A-0DAA-4FEB-9966-FB196F502953}" />
+				<Child Name="SignInButton" Owner="{47B34110-6968-465A-87E7-9711FB15B466}" />
+				<Child Name="TermsAndConditionsCheckbox" Owner="{D983D07E-6C62-473D-91BF-14B5618DCFDA}" />
+			</Child>
+			<Child Name="VitaminsSupplementsMenu" Owner="{07425BC3-98AA-4766-8373-937AE3334541}">
+				<Child Name="VitaminCSubMenu" Owner="{731FCA9C-80EF-46E5-9DD6-FCDB591DCBC4}" />
+			</Child>
+			<Child Name="FoodDrinkMenu" Owner="{4DACF59C-7FCA-440D-8B47-58D35481097B}">
+				<Child Name="ChocolateCakesBiscuitsSubmenu" Owner="{34D953AD-D4B6-48B2-892A-A5EB1581D33A}" />
+				<Child Name="ChocolateCakesBiscuitsPageHeader" Owner="{F63D40C2-A933-4102-8A9D-424154EC93CB}" />
+			</Child>
+			<Child Name="BasketPage" Owner="{55AF6281-DC8C-427F-837B-F6F3212DB5CD}">
+				<Child Name="SubtotalValue" Owner="{4CEFFBA3-AAEC-449F-BF5A-719070D21C22}" />
+				<Child Name="SavingsValue" Owner="{21DEA7BC-03C3-4D04-8DBB-E8FF526C368D}" />
+				<Child Name="DefaultDeliveryValue" Owner="{409C89B6-5F7E-4647-9EA4-9252EA4CAA54}" />
+				<Child Name="TotalValue" Owner="{C1F8BAA6-30CA-4DFE-9022-F8C1EB36290B}" />
+			</Child>
+			<Child Name="BasketNavigationButton" Owner="{8C54AB32-404C-47A9-A727-6CDDE24D6D2D}" />
+			<Child Name="LoggedInUserAccountTab" Owner="{1BD2451B-6672-449B-BB2D-A34BB6F9D0F8}">
+				<Child Name="SignOutButton" Owner="{74E54AB0-FE6F-48AB-A124-B9897934B163}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

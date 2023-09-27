@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<folder name="CommonActions">
+			<child name="BrowserActions" key="{BA83F952-8547-451D-81AB-DC2FF1928550}" path="BrowserActions.js" />
+			<child name="ApplicationActions" key="{B050DA7D-ACCD-463F-9691-472F9F90C4ED}" path="ApplicationActions.js" />
+			<child name="Util" key="{8CE921EE-B87D-4D92-BC78-5DF477561432}" path="Util.js" />
+			<child name="Helper" key="{BA79F774-E696-4229-B244-C89ED5781670}" path="Helper.js" />
+		</folder>
+		<folder name="TestCases">
+			<child name="TestCase1" key="{918D30D5-7209-4FF1-B0A1-74807C350443}" path="TestCase1.js" />
+			<child name="TestCase2" key="{C3A3C8B6-A9C9-4E80-AD6E-89E1587C8A4C}" path="TestCase2.js" />
+			<child name="TestCase3" key="{BE7DBC4C-B7FE-4941-92E5-3D04328B615C}" path="TestCase3.js" />
+		</folder>
+		<folder name="PageSpecifcActions">
+			<child name="RegistrationPage" key="{4E1C1BCF-4F45-4AC9-8D5F-D91C9FDE9252}" path="RegistrationPage.js" />
+			<child name="LoginPage" key="{E56007BB-A05A-4E14-9C2B-155D6D89063B}" path="LoginPage.js" />
+			<child name="ItemsSubmenuPages" key="{53ECA492-C07C-4A9F-BAB1-1ADEF5386ACC}" path="ItemsSubmenuPages.js" />
+			<child name="BasketPage" key="{71747479-6D12-4BFD-B428-81D8075A1A6E}" path="BasketPage.js" />
+		</folder>
+		<child name="Unit1" key="{DB48B910-6FFE-4357-B0F3-43DEB532ADFB}" path="Unit1.js" />
+	</children>
+</Root>

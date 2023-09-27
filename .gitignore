@@ -1,0 +1,13 @@
+# Use glob syntax
+syntax: glob
+
+# Ignore logs
+HollandBarrettWebTest/Log/
+Log/
+
+# Ignore local settings files
+*.tcLS
+*.tcCfgExtender
+
+# Ignore backup files
+*.bak

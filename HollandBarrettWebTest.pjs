@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{767A955E-C843-4640-9B29-0213E8815C46}">
+	<children>
+		<child name="HollandBarrettWebTest" key="{06B2A855-010E-4D00-A072-E3F09B5AD425}" path="HollandBarrettWebTest\HollandBarrettWebTest.mds" />
+	</children>
+	<testItems key="{DF20B317-FF25-4B05-9B62-820A613EF6AF}">
+		<children>
+			<testItem key="{06B2A855-010E-4D00-A072-E3F09B5AD425}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{C2741EEE-F5CA-4F2A-8DDD-88B9205E3F09}" />
+	<analysis key="{C1BEF054-D29F-41D2-B15E-9494DF979B09}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
